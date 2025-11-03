@@ -33,7 +33,7 @@ jwt_expected="90d"
 
 ### 3️⃣ التشغيل
 ```bash
-npm start
+ nodemon run dev
 ```
 ثم افتح المتصفح على:
 ```
