@@ -18,19 +18,6 @@ npm install
 PORT=3000
 NODE_ENV=Development
 
-# Base
-Base_URL=http://localhost:3000
-
-# Database
-Username=Besho
-Password=g8PUOqO8gvCWXKFA
-Url_DB=mongodb+srv://Besho:g8PUOqO8gvCWXKFA@cluster0.vv4ydn9.mongodb.net/Shop?retryWrites=true&w=majority&appName=Cluster0
-
-# JWT
-jwt_sectkey="ahmed is very good and i wil fuck you"
-jwt_expected="90d"
-```
-
 ### 3️⃣ التشغيل
 ```bash
  nodemon run dev
