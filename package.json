@@ -1,0 +1,34 @@
+{
+  "name": "ecomers-proj",
+  "version": "1.0.0",
+  "description": "The My proj ecommerce",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "prod": "cross-env NODE_ENV=production node index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "cross-env": "^10.0.0",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.1",
+    "morgan": "^1.10.1",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.9",
+    "nodemon": "^3.1.10",
+    "qs": "^6.14.0",
+    "react-router-dom": "^7.9.4",
+    "sharp": "^0.34.4",
+    "slugify": "^1.6.6",
+    "uuid": "^13.0.0",
+    "uuidv4": "^6.2.13"
+  }
+}
